@@ -5,7 +5,17 @@ Phenix SDK is provided as a standard iOS [XCFramework](https://help.apple.com/xc
 ## SPM Integration
 
 You can use PhenixSdk as a [Swift package](https://github.com/PhenixRTS/swift-phenixrtssdk.git).
+
 [Integration instructions](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app)
+
+Choose an "Exact Version" of the Phenix SDK in SPM Dependency Rule.
+
+Example:
+<p align="center">
+  <img alt="SPM Integration example" src="docs/spm_example.png" width="80%">
+</p>
+
+The SDK version can be found as a tag of this repository.
 
 ## Alternative integration:
 
